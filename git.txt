@@ -1,1 +1,13 @@
+3 mamanging state in git hub
+untracked
+added/staged
+committed
+
+Every time you enter commit it means you created saved check point
+
+to go back 
 git reset --hard HEAD~1
+
+to check stages of a file
+git status -s
+
