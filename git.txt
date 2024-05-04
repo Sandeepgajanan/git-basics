@@ -11,5 +11,8 @@ git reset --hard HEAD~1
 to check stages of a file
 git status -s
 
+to check how many save-ponits
+git log --oneline
+
 
 
