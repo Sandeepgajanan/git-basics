@@ -1,0 +1,41 @@
+
+### Collaborative Workflow:
+
+#### For You:
+
+Clone the Repository:
+
+ `git clone <repository_URL>`
+
+Create a Feature Branch:
+
+ `git switch -C feature_branch`
+
+
+Make Changes: Implement new features or fix bugs.
+
+   - `git add .`
+   - `git commit -m "Description of changes made"`
+   - `git push origin feature_branch`
+
+
+
+
+#### For the Person Managing:
+
+Review Changes & Merge Changes :
+
+   - `git switch main`
+   - `git merge feature_branch`
+   - `git push origin main`
+
+Cleanup Feature Branch:
+
+   - `git branch -d feature_branch`
+   - `git push origin --delete feature_branch`
+
+Update Local Main Branch:
+   - `git switch main`
+   - `git pull origin main`
+
+

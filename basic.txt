@@ -1,0 +1,40 @@
+#### Basic Commands:
+
+Committing Changes: 
+`git commit -m "Commit message"`
+
+Checking File Status: 
+`git status -s`
+
+Viewing Commit History:
+`git log --oneline`
+
+Viewing Detailed Commit History:
+ `git log`
+
+Creating Branches:
+`git branch -M "main"`
+
+Viewing Branches: 
+`git branch`
+
+Switching Between Branches:
+ `git switch branch_name`
+
+Creating and Switching Branches Simultaneously:
+ `git switch -C "branch_name"`
+
+Merging Branches:
+ `git merge branch_name`
+
+Deleting Local Branches:
+ `git branch -d "branch_name"`
+
+Stashing Changes:
+ `git stash`
+
+Applying Stashed Changes: 
+`git stash apply`
+
+Clearing Stash: 
+`git stash clear`
